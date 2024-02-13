@@ -21,19 +21,19 @@ def modificar_camper(id, nota_teorica, nota_practica):
     else:
         return "No se encontró el camper con el id: " + str(id)
     
-ruta={
-    
-}
-ruta['Java']={
-    'Nombres': nombres,
-    'Apellidos': apellidos,
-    'Dirección': direccion,
-    'Acudiente': acudiente,
-    'Telefono celular':telefonoc,
-    'Telefono fijo':telefonof,
-    'Estado': 'Inscrito',
-    'Riesgo': 'Nulo'
-}
+id=123456789
+nombres= 'Diego'
+apellidos= 'Garcia'
+direccion= '123nort'
+acudiente= 'Petronila Sinforosa'
+telefonoc= '123456'
+telefonof= '654321'
 
-def asignar_clase
+ingreso_campers(id, nombres, apellidos, direccion, acudiente, telefonoc, telefonof)
+
+nota_teorica= 60
+nota_practica= 70
+
+modificar_camper(id, nota_teorica, nota_practica)
+print(camper)
 
