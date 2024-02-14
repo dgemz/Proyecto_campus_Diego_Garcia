@@ -37,3 +37,24 @@ nota_practica= 70
 modificar_camper(id, nota_teorica, nota_practica)
 print(camper)
 
+nombre=input("nombre  ")
+ruta=input("Ruta  ")
+ingresar_trainer(nombre, ruta)
+
+id=input("iden")
+nombres=input("nombre")
+apellidos=input("apellidos")
+direccion=input("dirección")
+acudiente=input("acudiente")
+telefonoc=input("telefonoc")
+telefonof=input("telefonof")
+ingreso_campers(id, nombres, apellidos, direccion, acudiente, telefonoc, telefonof)
+
+id_cam=input("id camper  ")
+print (ruta)
+ruta_asig=input("Escoja una ruta  ")
+asignar_ruta(id_cam, ruta_asig)
+
+print(trainers)
+print(salon)
+print(ruta)
